@@ -20,11 +20,24 @@ body {
 	}
 	
 h1 { font-family: InterFace; font-weight: bold; margin-top: 44px; }
+h5 { font-family: InterFace; font-weight: lighter; margin-top: 11px; margin-bottom: 44px; }
 
 #main article { border: none; }
 
 #copy { 
 	width: 400px;
 	max-width: 95%;
-	margin-top: 88px;
+	margin-top: 55px;
+	line-height: 1.5;
+	font-size: 15px;
 	}
+	
+#newsletter { 
+	width: 200px;
+	max-width: 95%;
+	margin-top: 22px;
+	line-height: 1.5;
+	font-size: 15px;
+	}
+	
+.btn-success {background-color: #99CCCC; border-color:  #99CCCC;  }

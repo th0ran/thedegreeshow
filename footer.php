@@ -1,7 +1,7 @@
 			<footer role="contentinfo">
 			
 				<div id="inner-footer" class="clearfix">
-		          <hr />
+<!-- 		          <hr /> -->
 		          <div id="widget-footer" class="clearfix row">
 		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer1') ) : ?>
 		            <?php endif; ?>
@@ -17,7 +17,7 @@
 					
 					<!-- <p class="pull-right"><a href="http://320press.com" id="credit320" title="By the dudes of 320press">320press</a></p> -->
 			
-					<p class="attribution">&copy; <?php bloginfo('name'); ?></p>
+					<!-- <p class="attribution">&copy; <?php bloginfo('name'); ?></p> -->
 				
 				</div> <!-- end #inner-footer -->
 				
