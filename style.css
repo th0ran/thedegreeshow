@@ -16,11 +16,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 
 body {
 	background-image: url('images/gplaypattern.png');
-	font-family: InterFace; 
+	font-family: InterFace-Regular; 
 	}
 	
-h1 { font-family: InterFace; font-weight: bold; margin-top: 44px; }
-h5 { font-family: InterFace; font-weight: lighter; margin-top: 11px; margin-bottom: 44px; }
+h1 { font-family: InterFace-Regular; font-weight: bold; margin-top: 44px; }
+h5 { font-family: InterFace-Regular; font-weight: lighter; margin-top: 11px; margin-bottom: 44px; }
 
 #main article { border: none; }
 
