@@ -103,7 +103,10 @@ body, html {
 	height: 100%;
 	width: 100%;
 	background: #000;
-	opacity:0.4 ;
+	/*background: #cc6699;*/
+	background: #cc6699;
+	/*background: #99cccc;*/
+	opacity:0.2;
 	/*margin-top: -700px;*/
 	position: fixed;
 	z-index: 7;
@@ -119,6 +122,7 @@ body, html {
 	color: white;
 	font-size: 70px;
 	text-align: center;
+	padding-top: 0px;
 }
 
 input.title[type=text] {
@@ -137,26 +141,32 @@ input.title[type=text]:focus {
 }
 
 .feature .first, .feature .second, .feature .third {
-	padding-top: 270px;
+	padding-top: 100px;
 }
 
 .feature .description {
 	text-align: center;	
 	margin-top: 10px;
 	font-size: 19px;
+
 }
 
 .feature .logo {
-	background: url(images/logo.png);
-	width: 117px;
-	height: 157px;
-	float: left;
-	margin-top: 20px;
-	margin-left: 20px;
+	background: url(images/logo-1.png);
+	width: 150px;
+	height: 180px;
+	image-rendering: crisp-edges;
+	float: none;
+	
+	
+	margin:0  auto;
+    		margin-top: 60px;
+
 }
 
 button {
-	background: #5ba4e5;
+	/*background: #5ba4e5;*/
+	background: #77aaaa;
 	color: white;
 	text-transform: uppercase;
 	padding: 10px;
@@ -192,13 +202,15 @@ footer {
 
 
 @media only screen 
-	and (max-device-width : 320px) 
+	and (max-device-width : 959px) 
 	{
-
+		.feature input[type=text] {
+    		font-size: 30px;
+    	}
 	} 
 
 @media only screen 
-	and (max-width:760px)
+	and (max-width:959px)
 	{
 		.feature .logo {
     		float: none;
@@ -208,5 +220,9 @@ footer {
 
     	.feature .title {
     		padding-top: 0px;
+    	}
+
+    	.feature input[type=text] {
+    		font-size: 30px;
     	}
 	}
