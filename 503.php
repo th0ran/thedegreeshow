@@ -5,6 +5,7 @@
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/holding.js"></script>
+		<meta name="viewport" content="width=device-width" />
 	</head>
 	<body>
 		<div class="overlay"></div>
