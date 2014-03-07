@@ -25,6 +25,8 @@ var app = new function() {
 	this.completeSignUp = function() {
 		$('.second .description').fadeOut(500);
 
+		console.log('Signing user up...')
+
 		$.post('/wp-content/plugins/newsletter/do/subscribe.php', {
 			ne: 'jon@thedegreeshow.com',
 		}, function(data){
