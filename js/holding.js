@@ -15,16 +15,22 @@ var app = new function() {
 
 			setTimeout(function(){
 				$('._email').focus();
-				$('.second .description').animate({
+				$('.second .description').animate({ 
 					opacity: 1,
 				}, 500);
 			}, 500);
 		}, 500);
-		
 	}
 
 	this.completeSignUp = function() {
 		$('.second .description').fadeOut(500);
+
+		$.post('/wp-content/plugins/newsletter/do/subscribe.php', {
+			ne: 'jon@thedegreeshow.com',
+		}, function(data){
+			console.log('the data is...');
+			console.log(data);
+		});
 
 		setTimeout(function(){
 			$('.newsletter').fadeOut(400);

@@ -24,13 +24,15 @@
 					</div>
 				</div>
 				<div class="second">
-					<input class="title _email" type="text" placeholder="" ></input>
-					<div class="description">
-						&uarr; Type your email &uarr; 
-					</div>
-					<div class="newsletter">
-						<button class="news" onclick="app.completeSignUp()">Sign up</button>
-					</div>
+					<form action="" method="post" onsubmit="app.completeSignUp(); return false;">
+						<input class="title _email" type="text" placeholder="" ></input>
+						<div class="description">
+							&uarr; Type your email &uarr; 
+						</div>
+						<div class="newsletter">
+							<button class="news" onclick="">Sign up</button>
+						</div>
+					</form>
 				</div>
 				<div class="third">
 					<div class="title">
