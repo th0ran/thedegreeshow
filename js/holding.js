@@ -25,10 +25,10 @@ var app = new function() {
 	this.completeSignUp = function() {
 		$('.second .description').fadeOut(500);
 
-		console.log('Signing user up...')
+		console.log('Signing user up... ' + $('.title._email').val())
 
 		$.post('/wp-content/plugins/newsletter/do/subscribe.php', {
-			ne: 'jon@thedegreeshow.com',
+			ne: $('.title._email').val(),
 		}, function(data){
 			console.log('the data is...');
 			console.log(data);
